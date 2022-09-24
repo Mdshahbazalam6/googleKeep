@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Product Sans",Arial,sans-serif;
+}
+body{
+    background-color: rgb(32,33,36);
+}
+.bodyContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftPanel{
+    /* width: 3vw; */
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+}
+.leftpanelFirstChild, .leftPanelSecChild, .leftPanelThirdChild, .leftPanelFourthChild, .leftPanelFifthChild{
+    display: flex;
+    /* width: 10vw; */
+    border: 1px solid white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.sidebarName{
+    /* display: none; */
+}
+.leftPanel:hover ,.leftpanelFirstChild, .leftPanelSecChild, .leftPanelThirdChild, .leftPanelFourthChild, .leftPanelFifthChild{
+    width: 10vw;
+}
+/* rgb(65,51,28) */
