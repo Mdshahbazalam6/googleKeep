@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Product Sans",Arial,sans-serif;
+}
+body{
+    background-color: rgb(32,33,36);
+}
+.bodyContainer{
+    width: 97vw;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.leftPanel{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+.leftPanel2{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+    width: 11vw;
+    text-align: left;
+    margin-left: -2vw;
+    /* margin-right: 4vw; */
+}
+.leftPanel:hover .sidebarName{
+    display: flex;
+    color: red;
+}
+.leftPanelContainer{
+    /* display: flex;
+    justify-content: space-between; */
+    text-align: left;
+    width: 4vw;
+    height: 100vh;
+    box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.75);
+    z-index: 10;
+
+}
+.leftpanelFirstChild{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    /* border: 1px solid white; */
+    width: 4vw;
+    background-color: rgb(32,33,36);
+    
+}
+.leftPanelContainer:hover {
+    width: 15vw;
+}
+.leftPanelContainer:hover .leftpanelFirstChild{
+    width: 15vw;
+}
+.sidebarName{
+    width: 11vw;
+    /* border: 1px solid red; */
+    display: none;
+    text-align: left;
+}
+.leftpanelFirstChild:hover .sidebarName{
+    display: flex;
+    transition-delay: 1s;
+}
+.leftPanel2 > div:hover {
+   text-decoration: underline;
+    }
+.leftPanelContainer:hover .sidebarName{
+    display: flex;
+    transition-delay: 1s;
+}
+/* 
+.leftPanel > div:hover {
+background-color: rgb(107,97,80);
+border: 1px solid red;
+padding:  .7vh ;
+padding-right: 2vh;
+}
+.leftPanel2 > div:hover {
+    background-color: rgb(107,97,80);
+    padding: 1vh;
+    border: 1px solid red;
+}
+#notes:hover {
+    background-color: rgb(107,97,80);
+    padding: 1vh;
+    border: 1px solid red;
+} */
