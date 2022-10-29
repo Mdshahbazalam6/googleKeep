@@ -1,14 +1,13 @@
 import './App.css';
-import HomewithoutLogin from './components/HomewithoutLogin';
-import Nav from './components/Nav';
+import Login from './components/Login';
+
 
 
 function App() {
   return (
 <>
-< Nav/>
-< HomewithoutLogin />
- 
+
+ <Login />
 </>
   );
 }
